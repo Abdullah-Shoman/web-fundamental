@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.disMain-flex{
+    display: flex;
+    /* below to display the box in center x-axis */
+    justify-content: center;
+}
+.dis-flex{
+    display: flex;
+}
+.nav-bar{
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-bar li{
+    margin: 5px 40px;
+}
+.search-input{
+    height: 30px;
+    width: 300px;
+}
+.btn-style{
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 3px 3px black;
+    margin: 10px;
+}
+.btn-login{
+    background-color: rgb(0, 99, 199);
+}
+.btn-def1-like ,.btn-def2-like{
+    background-color: hsl(45.1deg 100% 70%);
+    color: black;
+}
+.set-border{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.set-italic{
+    font-style: italic;
+}
+.ninja-word{
+    text-align: center;
+    line-height: 1.3;
+}
+/* aside add def  */
+.btn-addDef{
+    width: auto;
+    padding: 5px 20px;
+    text-align: center;
+    color: black;
+    background-color: #93c47d;
+}
+.add-def {
+    width: 240px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 1.7em;
+}
+.set-bold{
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.set-center{
+    /* the parent should included div-flex */
+    justify-content: center;
+    align-items: center;
+}
+.conent-def{
+    padding: 20px;
+}

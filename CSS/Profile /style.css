@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dis-Flex{
+    display: flex;
+    justify-content: center;
+}
+header.dis-Flex{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nav-heder{
+    align-items: center;
+}
+.sign-out{
+    background-color: rgb(68, 161, 161);
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #000;
+    padding: 5px;
+    width: 100px;
+    border: none;
+}
+.active{
+    font-weight: bold;
+}
+.page-title{
+    color: #fff;   
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    /* margin: 0px 20px; */
+}
+main.dis-Flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+/*  Style section - artical 1 */
+.set-boxBorder{
+    border: 2px solid gainsboro;
+}
+.color-fill{
+    height: 90px;
+    background-color: rgb(49, 191, 191);
+    margin: 0px 0px 60px 0px;
+}
+.profile-Information{
+    width: 450px;
+}
+
+.profile-Information > h2, a, p{
+    padding: 5px 5px 5px 20px ;
+}
+.profile-image{
+    height: 120px;
+    margin: 20px;
+}
+.image-border{
+    background-color: #fff;
+    padding: 2px;
+    border: 3px solid rgb(208, 204, 204);
+    border-radius: 50%;
+}
+.location img{
+    width: 10px;
+    margin: 0px 10px;
+}
+
+/* is there any other way to center the text with imag isted of this */
+.editingProfile{
+    display: flex;
+}
+.editingProfile img{
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+}
+/* Style section - artical 2  */
+
+.education-article{
+    margin-top: 20px;
+}
+.education-article p{
+    padding: 10px;
+    line-height: 1.6;
+}
+/* aside style  */
+.education-article h3,.requests-article h3 ,.connection-article h3{
+    background-color: #373535;
+    color: #fff;
+    padding: 10px;
+}
+.requests-article{
+    margin-bottom: 20px;
+}
+
+.requests,.connection{
+    align-items: center;
+}
+.requests-image , .connection-image{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+.response-image{
+    height: 30px;
+    margin: 2px;
+}
+.requests-num, .Connection-num{
+    background-color: rgb(201, 201, 201);
+    border-radius: 50%;
+    color: black;
+    padding: 5px;
+}
+.view-more{
+    border-top: 2px solid gainsboro;
+    padding: 5px;
+}
+.dis-Flex h4{
+    flex: 2;
+}
+.set-gray{
+    color: gray;
+}

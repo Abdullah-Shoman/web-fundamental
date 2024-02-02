@@ -1,0 +1,94 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* button with shadow */
+.btn{
+    padding: 5px 20px;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(0, 99, 199);
+    box-shadow: 3px 3px black;
+}
+/* display item in row */
+.row{
+    display:flex;
+}
+/* flex 1 for item  */
+.col{
+    flex: 1;
+}
+/* navbar  class*/
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+body{
+    background-color: #47484f;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid aqua;
+    padding: 0px 10px;
+    background-color: #313135;
+}
+
+.nav-title{
+    color: white;
+    font-family: 'Lemon', serif;
+    /* flex: 2; */
+    cursor: pointer;
+}
+.nav-links a , .nav-btn{
+    cursor: pointer;
+    font-weight:lighter;
+    text-decoration: none;
+    color: rgb(214, 215, 216);
+}
+.nav-active{
+    font-weight: bold;
+}
+.nav-btn{
+    background-color: #14a2b8;
+    border: 3px solid black;
+    font-size: large;
+    padding:  5px;
+    box-shadow: 3px 3px  black;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.nav-title,.nav-links{
+    transition: all 0.3s ease 0s;
+}
+.nav-title:hover{
+    color: #14a2b8;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #14a2b8;
+}
+.nav-btn{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-btn:hover{
+    color: #14a2b8;;
+}

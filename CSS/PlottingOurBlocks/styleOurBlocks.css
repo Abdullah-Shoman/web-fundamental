@@ -1,0 +1,61 @@
+.container{
+    background-color: silver;
+    width: 950px;
+    margin: 0px auto;
+    padding: 15px;
+    /* used overflow because the container become small and to 
+    solve this issue we should you it */
+    /* overflow: hidden; */
+    display: inline-block;
+
+}
+
+.top-nav{
+    background-color: green;
+    height: 150px;
+    display: block;
+    margin: 20px;
+
+}
+.side-nav{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 25px;
+    /* float make the tag already been display as inline-block */
+}
+.main{
+    background-color: red;
+    height: 400px;
+    width: 700px;
+    /* float: right; */
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+
+}
+.sub-content{
+    background-color: yellow;
+    height: 200px;
+    width: 210px;
+    /* here we can't use float because the advertiment will display as inline
+    so, it will not  our requirement.   */
+    display: inline-block;
+    /* we used the inline-block. beacuse inline only it will disappear our blocks.*/
+    margin-left: 10px;
+    margin-top:10px ;
+    margin-right: 2px ;
+
+}
+#advertiement{
+    background-color: purple;
+    height:120px;
+    width: 660px;
+    display: block;
+    margin: 20px 15px 0px 10px;
+
+    /* here our div initially display as block
+    so, no need any action   */
+}

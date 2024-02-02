@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: .5pc;
+    height: auto;
+}
+/* ---- Top Nav ----- */
+.top{
+    display: flex;
+    flex-direction: column;
+}
+div.top-nav{
+    height: 100px;
+    background-color:hsl(188.05deg 80.39% 40%);
+    border-top-right-radius: 0.4pc;
+    border-top-left-radius: 0.4pc; 
+    margin-bottom: 40px;
+}
+.userimag{
+    /* dimmention of image */
+    height: 80px;
+    width: 80px;
+    /* position of image inside the nav */
+    position: relative;
+    left: 20px;
+    top: 50px;
+    /* for background of image */
+    background-color: #fff;
+    padding: 2px;
+    border: 3px solid rgb(208, 204, 204);
+    border-radius: 50%;
+}
+/* ---- Conent ----- */
+.content{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.content .fullname{
+    margin-bottom: 5px;
+    font-family:'Quicksand', sans-serif;;
+    font-size: 2em;
+}
+.location{
+    display: flex;
+    /* here the p tag comes before the imag ( but i want to try row-reverse */
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.locationicon{
+    height: 15px;
+    margin-right: 5px;
+}
+.subject{
+    display: flex;
+    margin: px 0px;
+}
+.subject li{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+/* ---- footer ----- */
+footer{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 10px;
+
+}
+.editing img{
+    height: 20px;
+    margin-right: 8px; ;
+}
+.editing a{
+    display: flex;
+}
+
+
+
+

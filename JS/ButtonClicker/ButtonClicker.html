@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Button Clicker</title>
+        <meta name="description" content=" try to connection with Javascript">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ButtonClicker.css">
+    </head>
+    <body>
+        <header >
+            <!-- used unorder list to manage the space b\w the items using margen -->
+            <ul class="nav-bar dis-flex">
+                <li><h1>Dojonary</h1></li>
+                <li><input type="text" placeholder="Search" class="search-input"></li>
+                <li><button class="btn-login btn-style" onclick="logIn(this)">Login</button></li>
+            </ul>
+        </header>
+        <main class="disMain-flex">
+            <section>
+                <article class="set-border dis-flex">
+                    <section class="ninja-word">
+                        <h2>ninja</h2>
+                        <p>noun
+                            <br>
+                            Plural: <span class="set-italic">ninjas</span>
+                        </p>
+                        <button class="btn-def1-like btn-style" onclick="addLike(this)">13 likes</button>
+                    </section>
+                    <section class=" conent-def dis-flex set-center">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </section>    
+                </article>
+                <article class="set-border dis-flex">
+                    <section class="ninja-word">
+                        <h2>ninja</h2>
+                        <p>noun
+                            <br>
+                            Plural: <span class="set-italic">ninjas</span>
+                        </p>
+                        <button class="btn-def2-like btn-style" onclick="addLike2(this)"><span>37</span> likes</button>
+                    </section>
+                    <section class="conent-def dis-flex set-center">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </section>
+                </article>
+            </section>
+            <aside>
+                <article class="add-def set-border">
+                    <p>Dojonary is defined by <span class="set-bold">You</span></p>
+                    <div class = "dis-flex set-center">
+                        <button class="btn-style btn-addDef" onclick="addDef(this)">Add Definition</button>
+                    </div>
+                </article>
+            </aside>
+        </main>
+        <script src="ButtonClickerJS.js"></script>
+    </body>
+</html>

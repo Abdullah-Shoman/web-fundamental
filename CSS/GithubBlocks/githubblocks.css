@@ -1,0 +1,49 @@
+.container{
+    width: 900px;
+    margin: auto;
+}
+img{
+    width: 200px;
+    height: 200px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 700px;
+}
+
+h1{
+    text-align: center;
+}
+
+.images-1 {
+    background-color: rgba(255, 228, 196, 0.939);
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+
+}
+.images-2{
+    background-color: rgb(56, 51, 45);
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px;
+
+}
+.images-3{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+}
+#footer{
+    display: flex;
+    /* justify-content: center; */
+}
+
+p{
+    margin: auto 5px;
+}

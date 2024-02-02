@@ -1,0 +1,15 @@
+/* this style  for  Registration Form */
+
+
+.header{
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    
+}
+
+label{
+    font-family: monospace;
+    font-size: 15px;
+}

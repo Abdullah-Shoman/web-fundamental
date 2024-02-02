@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dojo Weather</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <header class="dis-flex">
+                <h1 class="dojoWeather">DojoWeather</h1>
+                <div class="cities">
+                    <a href="#" onclick="selectCity()">Chicago</a>
+                    <a href="#" onclick="selectCity()">Gaza</a>
+                    <a href="#" onclick="selectCity()">Dallas</a>
+                </div>
+            </header>
+            <nav class="nav dis-flex">
+                <h2>San Jose</h2>
+                <form action="">
+                    <label> Show tempreature in </label>
+                    <select id="tempreature" onchange="changeTemp()">
+                        <option value="Celsius">°C</option>
+                        <option value="Fahrenheit">°F</option>
+                    </select>
+                </form>
+            </nav>
+            <section class="dis-flex week-weather">
+                <div class="set-border set-background weather">
+                    <h3>Todya</h3>
+                    <img src="img/some_rain.png" alt="rain">
+                    <h4>some rain</h4>
+                    <div class="dis-flex temp-rate">
+                        <p class="max"><span class="temp">20</span>°</p>
+                        <p class="min"><span class="temp">30</span>°</p>
+                    </div>
+                </div>
+                <div class="set-border set-background weather">
+                    <h3>Tomorrow</h3>
+                    <img src="img/some_sun.png" alt="sun">
+                    <h4>some sun</h4>
+                    <div class="dis-flex temp-rate">
+                        <p class="max"><span class="temp">20</span>°</p>
+                        <p class="min"><span class="temp">30</span>°</p>
+                    </div>
+                </div>
+                <div class="set-border set-background weather">
+                    <h3>Sunday</h3>
+                    <img src="img/some_clouds.png" alt="clouds">
+                    <h4>some clouds</h4>
+                    <div class="dis-flex temp-rate">
+                        <p class="max"><span class="temp">20</span>°</p>
+                        <p class="min"><span class="temp">30</span>°</p>
+                    </div>
+                </div>
+                <div class="set-border set-background weather">
+                    <h3>Monday</h3>
+                    <img src="img/some_sun.png" alt="sun">
+                    <h4>some sun</h4>
+                    <div class="dis-flex temp-rate">
+                        <p class="max"><span class="temp">20</span>°</p>
+                        <p class="min"><span class="temp">30</span>°</p>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="dis-flex set-border set-background cookies">
+                    <img src="img/cookie.png" alt="cookie">
+                    <p>
+                        <span class="set-bold">Stope! Cookie time</span>
+                        <br>
+                        We use cookies(sadly not the edible once) to personalize content and ads, to provide social media
+                        features and to analyse our traffic.<a href="#">Read more...</a>
+                    </p>
+                    <button class="btn" onclick="acceptCookies()">I Accept</button>
+                </div>
+            </footer>
+        </main> 
+        <script src="script.js" async defer></script>
+    </body>
+</html>

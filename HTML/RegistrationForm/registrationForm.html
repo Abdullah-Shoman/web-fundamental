@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="/img/reg.webp" type="image/x-icon">
+        <title>Registration Form </title>
+    </head>
+    <body>
+        <form action="/process" method="post">
+            <header class="header">
+                <h1>Registration Form:</h1>
+            </header>
+            <table class="table">
+                <tr>
+                    <td><label for="firstName" >Firs Name:<sup>*</sup></label></td>
+                    <td><input type="text" name="firstName" id="firstName" placeholder="Abdullah"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last Name:<sup>*</sup></label></td>
+                    <td><input type="text" name="lastName" id="lastName" placeholder="Abukannh"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email adress:<sup>*</sup></label></td>
+                    <td><input type="email" name="email" id="email" placeholder="email@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:<sup>*</sup></label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirmPassword">Confirm Password:<sup>*</sup></label></td>
+                    <td><input type="password" name ="confirmPassword" id="confirmPassword"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Birthday:</label></td>
+                    <td><input type="date" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="genderMan">
+                        <label for="genderMan">Man</label>
+                        <input type="radio" name = "gender" id="genderFemal">
+                        <label for="genderFemal">Female</label>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <label for="description"> A short description about myself:</label>
+                <textarea name="aboutmyself" id="description" cols="30" rows="10" placeholder="about me!"></textarea>
+            </div>
+            <div>
+                <label for="language">Favorite Language</label>
+                <select id="language">
+                    <option value="java">Java</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">python</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="follow" id="follow">
+                <label for="follow">Yes, I would like to receive periodic Email</label>
+            </div>
+            <div>
+                <input type="submit" name="Registration">
+            </div>
+            <footer class="footer">
+                <label ><sup>*</sup>Indicate a required field</label>
+            </footer>
+        </form>
+    </body>
+</html>
