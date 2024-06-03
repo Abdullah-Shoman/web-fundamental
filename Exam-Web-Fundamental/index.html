@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Just Dressert</title>
+        <meta name="description" content="JustDressert for many dressert recip">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="container">
+            <header class=" header set-background dis-flex">
+                <h1>Just<span>Dressert</span></h1>
+                <div >
+                    <button class="btn join" onclick="clickJoin(this)">Join</button>
+                    <button class="btn login">Login</button>
+                </div>
+            </header>
+            <nav class="nav dis-flex">
+                <div class="search dis-flex">
+                    <input type="search"  id="search" placeholder="SEARCH">
+                    <button class="go" onclick="goSearch()">Go</button>
+                </div>
+                <div>
+                    <img src="image/cake.png" alt="Cake">
+                    <p class="set-center">Cake</p>
+                </div>
+                <div>
+                    <img src="image/cookie.png" alt="Cookies">
+                    <p class="set-center">Cookies</p>
+                </div>
+                <div>
+                    <img src="image/ice-cream.png" alt="ice-cream">
+                    <p class="set-center">Ice-Cream</p>
+                </div>
+                <div>
+                    <img src="image/pie.png" alt="Pie">
+                    <p class="set-center">Pie</p>
+                </div>
+            </nav>
+            <section class="dis-flex">
+                <div class="content">
+                    <h3 class="set-center">Recip of the Day</h3>
+                    <img src="image/orange-tart.jpg" alt="Orange-Tart" class="recip-image">
+                    <div class="bio dis-flex">
+                        <p class="recip">Orange Tea Jelly Tart
+                            <br>
+                            by: <a href="#">yuripiano</a>
+                        </p>
+                        <img src="image/heart.png" alt="Like" class="heart-icon" onclick="addLike('0')">
+                        <span class="likes">50</span>
+                    </div>
+                    <div class="set-center">
+                        <a href="#">See Full Recip</a>
+                    </div>
+                </div>
+                <aside>
+                    <h4>Recommended for you:</h4>
+                        <img src="image/macarons.jpg" alt="Macarons">
+                        <div class="bio dis-flex">
+                            <p class="recip">Macarons <br>
+                                by: <a href="#">EmilieW</a>
+                            </p>
+                            <img src="image/heart.png" alt="Like" class="heart-icon" onclick="addLike('1')">
+                            <span class="likes">212</span>
+                        </div>
+                        <img src="image/creme-brulee.jpg" alt="creme-brulee">
+                        <div class="bio dis-flex">
+                            <p class="recip">Crème Brûlèe<br>
+                                by: <a href="#">MarisaG</a>
+                            </p>
+                            <img src="image/heart.png" alt="Like" class="heart-icon" onclick="addLike('2')">
+                            <span class="likes">33</span>
+                        </div>
+                </aside>
+            </section>
+        </main>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
